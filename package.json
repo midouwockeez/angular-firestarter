@@ -40,6 +40,8 @@
     "@nestjs/ng-universal": "^3.0.0",
     "@nestjs/platform-express": "^6.11.6",
     "@nguniversal/express-engine": "^9.0.0",
+    "@ngx-translate/core": "^12.1.2",
+    "@ngx-translate/http-loader": "^5.0.0",
     "express": "^4.15.2",
     "firebase": "7.8.1",
     "reflect-metadata": "^0.1.13",

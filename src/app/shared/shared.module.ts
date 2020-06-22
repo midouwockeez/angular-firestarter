@@ -14,6 +14,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { TranslateModule } from '@ngx-translate/core';
+import { HttpClientModule } from '@angular/common/http';
 
 const components = [
   ShellComponent, DeleteButtonComponent
@@ -33,7 +35,9 @@ const modules = [
   MatCardModule,
   MatFormFieldModule,
   MatInputModule,
-  MatSnackBarModule
+  MatSnackBarModule,
+  TranslateModule,
+  HttpClientModule
 ];
 
 @NgModule({
@@ -48,4 +52,4 @@ const modules = [
     ...modules
   ],
 })
-export class SharedModule {}
+export class SharedModule { }

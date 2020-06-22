@@ -19,13 +19,18 @@ const routes: Routes = [
     path: 'customers',
     loadChildren: () =>
       import('./customers/customers.module').then(m => m.CustomersModule),
+  },
+  {
+    path: 'units',
+    loadChildren: () => import('./units/units.module').then(m => m.UnitsModule),
+    canActivate: [AuthGuard]
   }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
     initialNavigation: 'enabled'
-})],
+  })],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

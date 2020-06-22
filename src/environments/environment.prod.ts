@@ -1,12 +1,13 @@
 export const environment = {
   production: true,
-  firebase:  {
-    apiKey: 'AIzaSyAKlEX5a8PQaadYNSrohqfl33O37Kjkv1Y',
-    authDomain: 'angular-voxer.firebaseapp.com',
-    databaseURL: 'https://angular-voxer.firebaseio.com',
-    projectId: 'angular-voxer',
-    storageBucket: 'angular-voxer.appspot.com',
-    messagingSenderId: '122050526979',
-    appId: '1:122050526979:web:529304dce5ffca7a'
+  firebase: {
+    apiKey: 'AIzaSyA_CPV34IqTUk4m07BuRJ4ljIJmk8G1pW0',
+    authDomain: 'appointements-booking.firebaseapp.com',
+    databaseURL: 'https://appointements-booking.firebaseio.com',
+    projectId: 'appointements-booking',
+    storageBucket: 'appointements-booking.appspot.com',
+    messagingSenderId: '600820240949',
+    appId: '1:600820240949:web:b3ff4b5c4c09097417977c',
+    measurementId: 'G-FCZM2SQLG8'
   }
 };
